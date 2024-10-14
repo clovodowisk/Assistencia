@@ -1,0 +1,82 @@
+/* inserir_info.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contêiner do formulário */
+.container {
+    max-width: 400px;
+    margin: 0 auto; /* Centraliza o contêiner */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column; /* Empilha os campos */
+}
+
+/* Estilo dos campos do formulário */
+input[type="text"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0; /* Margem entre os campos */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px; /* Aumenta a legibilidade */
+}
+
+/* Estilo do botão */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo das mensagens de sucesso e erro */
+.success {
+    color: green;
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Espaço abaixo da mensagem */
+}
+
+.error {
+    color: red;
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Espaço abaixo da mensagem */
+}
+
+/* Estilo do link de voltar */
+.back-link {
+    text-align: center; /* Centraliza o texto */
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 20px; /* Espaço acima do link */
+}
+
+.back-link:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}

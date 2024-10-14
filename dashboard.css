@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px; /* Limitar a largura do conteúdo */
+    margin: 0 auto; /* Centralizar o container */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* Centralizar o título */
+    margin-bottom: 30px; /* Espaçamento inferior */
+}
+
+.nav-buttons {
+    display: flex; /* Usar flexbox para os botões */
+    flex-wrap: wrap; /* Permitir quebra de linha */
+    justify-content: center; /* Centralizar os botões */
+    gap: 20px; /* Espaçamento entre os botões */
+    margin-bottom: 30px; /* Espaçamento inferior */
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 25px; /* Aumentar padding para maior clique */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Aumentar o tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.logout {
+    display: block; /* Tornar o link de logout um bloco */
+    text-align: center; /* Centralizar o link de logout */
+    margin-top: 20px; /* Margem superior */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #007bff; /* Cor do link */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+.logout:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
