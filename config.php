@@ -2,8 +2,8 @@
 // config.php
 
 $host = 'localhost';
-$db = 'centrocell'; // Nome do banco de dados
-$user = 'root'; // Substitua pelo seu usuário do MySQL
+$db = 'database'; // Nome do banco de dados
+$user = ''; // Substitua pelo seu usuário do MySQL
 $pass = ''; // Substitua pela sua senha do MySQL
 
 try {
